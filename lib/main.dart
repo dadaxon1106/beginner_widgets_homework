@@ -4,6 +4,7 @@
 // import 'package:begginer_widgets_homework/mainpage/main_view.dart';
 // import 'package:begginer_widgets_homework/singerspage/singers_view.dart';
 // import 'package:begginer_widgets_homework/widgetspage/widgets_page.dart';
+import 'package:begginer_widgets_homework/mainpage/main_view.dart';
 import 'package:begginer_widgets_homework/widgetspage/widgets_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
-      home: const WidgetPage(),
+      home: const MainPage(),
     );
   }
 }
