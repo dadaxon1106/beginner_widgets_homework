@@ -26,28 +26,9 @@ class MainPage extends StatelessWidget {
         ),
         toolbarHeight: 80,
       ),
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              "MY FAVOURITE PERSON THAN EVERTHING EVERYBODY",
-              style: TextStyle(
-                  color: Colors.green.shade800,
-                  fontSize: 22,
-                  fontStyle: FontStyle.italic),
-            ),
-            const SizedBox(
-              height: 19,
-            ),
-            const Text(
-              "Olamlarga rahmat bo‘lgan, oxir zamon Payg‘ambarining insonlar orasidan chiqishi butun insoniyat uchun katta faxrdir. Muhammad alayxissalom insoniyatning mashaqqat chekishi, qiyinchilikda qolishni aslo istamaydigan, og‘ir ishlarnida yengil qilgan, yaxshiliklar bashoratini olib kelgan Payg‘ambardir. Insoniyatning saodatga yetishiga nihoyatda tashna bo‘lgan Payg‘ambardir. Dunyo tarixida Muhammad alayhissalomchalik insoniyatga karamli va mehribon kishi bo‘lmagan",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 20,
-              ),
-            ),
-          ],
         ),
       ),
       drawer: Drawer(
